@@ -1,0 +1,13 @@
+# GitHub Pages config for the DuDu Badminton support site.
+#
+# Pages builds the root of `main`, so the published URLs are
+# https://minhthang2811.github.io/dudu-support/<page>. Apple requires a
+# reachable Privacy Policy URL and a Support URL on every App Store listing,
+# and this is the cheapest way to own both without running a server. The app's
+# own code is in a private repository, which Pages will not serve on a free
+# plan — hence this separate public one.
+title: DuDu Badminton
+description: Warm up before you play, stretch after. A badminton coach with a duck.
+theme: jekyll-theme-minimal
+exclude:
+  - README.md
