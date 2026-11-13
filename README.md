@@ -26,14 +26,19 @@ There is no build step of our own: every page is plain Markdown.
 
 ## Keeping the privacy policy true
 
-The policy says DuDu makes no network requests of any kind. DuDu is a native
-SwiftUI app with no networking code and no third-party SDKs, so that holds as
+The policy says DuDu has no servers of its own and that the only place it sends
+anything is the player's private iCloud (CloudKit container
+`iCloud.com.minhthang.dudu`, via `CKSyncEngine`, end-to-end encrypted record
+fields). DuDu is a native SwiftUI app with no third-party SDKs, so that holds as
 long as:
 
-- the only way out is a link the user taps in Profile → Settings, which Safari
-  opens;
+- the only network traffic is CloudKit sync to the private database, which the
+  player can switch off in Profile → Settings → iCloud sync;
+- the only other way out is a link the user taps in Profile → Settings, which
+  Safari opens;
 - the voice coach keeps using Apple's on-device `AVSpeechSynthesizer`;
-- nothing is added that phones home (analytics, crash reporting, ads).
+- nothing is added that phones home (analytics, crash reporting, ads) and no
+  other kind of data is synced.
 
 If any of that changes, the privacy policy here, the App Review notes and the
 App Privacy answers in App Store Connect have to change together.

@@ -14,7 +14,8 @@ from a nón lá to an áo dài. Nothing is for sale: you earn everything by look
 after your body. A forgiving weekly streak, 18 badges and 39 moves that level
 up from New to Gold keep you coming back.
 
-Everything stays on your device. In English and Tiếng Việt.
+Your progress stays on your device and in your own private iCloud, never on our
+servers. In English and Tiếng Việt.
 
 ---
 

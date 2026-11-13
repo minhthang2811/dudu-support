@@ -9,8 +9,10 @@ help.
 ## Common questions
 
 **Where is my data stored?**
-On your device only. DuDu makes no network requests and has no account system.
-See the [Privacy Policy](./privacy-policy.md).
+On your device and, if you are signed in to iCloud, in your own private iCloud
+so your progress follows you to a new iPhone. DuDu has no servers or account
+system of its own, and we cannot see your data. You can turn sync off in
+Profile → Settings → iCloud sync. See the [Privacy Policy](./privacy-policy.md).
 
 **How long does a warm-up take?**
 Pick Quick, Standard or Full on Today. Quick takes about four minutes, and every
@@ -46,7 +48,9 @@ follow the switch.
 Profile → Settings → Language, or the EN / VI button on Today.
 
 **Will my progress survive deleting the app?**
-No. Deleting DuDu removes its storage with it.
+If iCloud sync was on, yes: reinstall DuDu, sign in to the same iCloud account
+and your progress comes back. With sync off, no: deleting DuDu removes its
+storage with it.
 
 **Is this medical advice?**
 No. DuDu is a warm-up and stretching guide. Stop if anything hurts, and talk to
